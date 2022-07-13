@@ -1,10 +1,12 @@
-.logo{
-    font-weight: 700;
-    font-size: 20px;
-    color:#a5b41e;
-    padding: 10px 20px;
-    
-    
+
+.navbar-text{
+    color:#1e41b4;
+
+
+}
+.navbar {
+    box-shadow: 0 0 5px 0 #cecfd3;
+    padding: 12px;
 }
 .nav-link {
     font-size: 15px;
@@ -13,5 +15,8 @@
 .nav-link.active {
     color:#1e41b4;
 
+}
+a.nav-link{
+    font-size: 15px;
 }
 
