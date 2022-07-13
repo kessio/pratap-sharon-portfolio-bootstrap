@@ -80,6 +80,7 @@ h3{
   line-height: 24px;
   color: #344563;
 }
+
 .port-text {
     font-weight: 400;
 font-size: 16px;
@@ -139,6 +140,22 @@ padding: 14px 18px;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+  }
+
+  .lang-container {
+    width: 122px;
+    height: 120px;
+    margin-right: 12px;
+    background-color: #F7F7F9;
+    align-items: center;
+    border-radius: 6px;
+  }
+
+  .lang-texts {
+    margin-top: 20px;
+    color: #253858;
+    font-size: 15px;
+    font-weight: 500;
   }
 
 
