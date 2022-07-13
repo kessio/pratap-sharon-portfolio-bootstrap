@@ -1,0 +1,17 @@
+.logo{
+    font-weight: 700;
+    font-size: 20px;
+    color:#a5b41e;
+    padding: 10px 20px;
+    
+    
+}
+.nav-link {
+    font-size: 15px;
+    font-weight: 500;
+}
+.nav-link.active {
+    color:#1e41b4;
+
+}
+
