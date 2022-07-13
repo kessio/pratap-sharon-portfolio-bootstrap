@@ -114,4 +114,31 @@ padding: 14px 18px;
     color: #fff;
   }
 
+  .left-box {
+    background-color: blue;
+  }
+
+  .right-box {
+    background-color: cyan;
+  }
+
+  #about-section {
+    background-color: #fff;
+    border-top-left-radius: 80px;
+    height: 700px;
+    margin-top: 150px;
+  }
+
+  .about-text {
+    margin-top: 142px;
+  }
+
+  .about-desc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
 
