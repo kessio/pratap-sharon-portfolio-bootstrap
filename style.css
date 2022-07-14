@@ -46,41 +46,11 @@ a.nav-link{
     border-bottom-left-radius: 80px;
 }
 
-
-
-  #about-section {
-    background-color: #fff;
-    border-top-left-radius: 80px;
-    height: 700px;
-    margin-top: 150px;
-  }
-
-  .about-text {
-    margin-top: 142px;
-  }
-
-  .about-desc {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-  }
-
-  .lang-container {
-    width: 122px;
-    height: 120px;
-    margin-right: 12px;
-    background-color: #F7F7F9;
-    align-items: center;
-    border-radius: 6px;
-  }
-
-  .lang-texts {
-    margin-top: 20px;
-    color: #253858;
-    font-size: 15px;
-    font-weight: 500;
-  }
+#about-section {
+  background-color: #fff;
+  border-top-right-radius: 80px;
+  margin-top: 150px;
+  padding-bottom: 100px;
+}
 
 
