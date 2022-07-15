@@ -1,49 +1,52 @@
 body {
-    background-color: #e5e5e5;
+  background-color: #e5e5e5;
 }
+
 p {
-    color: #344563;
+  color: #344563;
 }
 
-.navbar-text{
-    color:#1e41b4;
-
+.navbar-text {
+  color: #1e41b4;
 }
+
 .navbar {
-    box-shadow: 0 0 5px 0 #cecfd3;
-    padding: 12px;
+  box-shadow: 0 0 5px 0 #cecfd3;
+  padding: 12px;
 }
-.nav-link {
-    font-size: 15px;
-    font-weight: 500;
-}
-.nav-link.active {
-    color:#1e41b4;
 
+.nav-link {
+  font-size: 15px;
+  font-weight: 500;
 }
-a.nav-link{
-    font-size: 15px;
+
+.nav-link.active {
+  color: #1e41b4;
+}
+
+a.nav-link {
+  font-size: 15px;
 }
 
 .display-1 {
-    font-size: 48px;
-    color: #091E42;
-    margin-top: 200px;
-    font-weight: 700;
+  font-size: 48px;
+  color: #091e42;
+  margin-top: 200px;
+  font-weight: 700;
 }
 
 .connect {
-    color: #7f8cff;
-    font-weight: 700;
-    font-size: 20px;
+  color: #7f8cff;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .hero-image {
-    height: 900px;
-    background: #fff url("images/desktop-version/main-page-bg.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-bottom-left-radius: 80px;
+  height: 900px;
+  background: #fff url("images/desktop-version/main-page-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom-left-radius: 80px;
 }
 
 #about-section {
@@ -53,12 +56,10 @@ a.nav-link{
   padding-bottom: 100px;
   height: 950px;
 }
+
 #contact-section {
-    background-color: #6070ff;
-    background-image: url(images/desktop-version/contact-form-bg.svg);
-    border-top-left-radius: 80px;
-    margin-top: -80px;
-    
+  background-color: #6070ff;
+  background-image: url(images/desktop-version/contact-form-bg.svg);
+  border-top-left-radius: 80px;
+  margin-top: -80px;
 }
-
-
