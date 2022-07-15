@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio Bootstrap</title>
+  <link href="bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav  class="navbar fixed-top navbar-expand-lg bg-white">
+    <div class="container-fluid">
+      <a class="navbar-brand logo" href="#"><img src="images/logo1.fw.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span><img src="images/hamburg.svg" alt="menu"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-image">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-xs-12 p-3">
+          <h1 class="display-1 font-weight-bold">Hello, we are <br>Glad to see you!</h1>
+          <p class="lead mt-5">I’m a software developer! I can help you build a product , feature or website
+            Look through some of my work and
+            experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+          <span class="connect">LET'S CONNECT</span>
+          <div class="d-flex flex-row bd-highlight mb-3">
+            <div class="p-2 bd-highlight"><a href="https://twitter.com/PRATAP_TWT"><img src='images/twitter.svg'
+                  width='20' height='20' alt="Twitter Profile"></a>
+            </div>
+            <div class="p-2 bd-highlight"><a href="https://www.linkedin.com/in/pratap-kumar-panabaka-755489236/"><img
+                  src='images/linkedin.svg' width='20' height='20' alt="LinkedIn Profile"></a></div>
+            <div class="p-2 bd-highlight"><a href=""><img src='images/m.svg' width='20' height='20'
+                  alt="Medium Profile"></a></div>
+            <div class="p-2 bd-highlight"><a href="https://github.com/PRATAP-KUMAR"><img src='images/github.svg'
+                  width='20' height='20' alt="GitHub Profile"></a></div>
+            <div class="p-2 bd-highlight"><a href=""><img src='images/v.svg' width='20' height='20'
+                  alt="Angellist Profile"></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="container mt-5">
+      <!-- Portfolio1 -->
+        <div class="card mt-5">
+          <div class="card-body">
+           <div class="row g-3">
+          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6"><img src="images/desktop-version/1.png" alt="portfolio" class="img-fluid" ></div>
+          <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 pt-5">
+            <h1>Tonic</h1>
+            <div class="d-flex flex-row flex-wrap bd-highlight mb-3">
+              <div class="p-2 bd-highlight">Canopy</div>
+              <div class="p-2 bd-highlight"><img src="images/dot.png" alt=""></div>
+              <div class="p-2 bd-highlight">Back End Dev</div>
+              <div class="p-2 bd-highlight"><img src="images/dot.png" alt=""></div>
+              <div class="p-2 bd-highlight">2015</div>
+            </div>
+            <p>A daily selection of privately personalized reads; no accounts or sign-ups required</p>
+            <div class="technologies-badge pt-2">
+              <span class="badge rounded-pill bg-primary">Html</span>
+              <span class="badge rounded-pill bg-primary">Ruby on rails</span>
+              <span class="badge rounded-pill bg-primary">css</span>
+              <span class="badge rounded-pill bg-primary">Javacsript</span>
+            </div>
+            <button type="button" class="btn btn-outline-primary mt-4" data-bs-toggle="modal" data-bs-target="#project1-modal">See Project</button>
+            <!-- Modal -->
+                  <div class="modal fade" id="project1-modal" tabindex="-1" aria-labelledby="project1-modalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="project1-modalLabel">Tonic</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-12 d-flex flex-row flex-wrap bd-highlight mb-3">
+                                <div class="p-2 bd-highlight">Canopy</div>
+                                <div class="p-2 bd-highlight"><img src="images/dot.png" alt=""></div>
+                                <div class="p-2 bd-highlight">Back End Dev</div>
+                                <div class="p-2 bd-highlight"><img src="images/dot.png" alt=""></div>
+                                <div class="p-2 bd-highlight">2015</div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <img src="images/desktop-version/1.png" class="img-fluid mb-4" alt="portfolio">
+                            </div>
+                          <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
+                                printer took a galley of type and scrambled it 1960s with the relea
+                              </p>
+                            </div>
+                            <div class="col-4">
+                              <div class="technologies-badge pt-2">
+                                <span class="badge rounded-pill bg-primary">Html</span>
+                                <span class="badge rounded-pill bg-primary">Ruby</span>
+                                <span class="badge rounded-pill bg-primary">css</span>
+                                <span class="badge rounded-pill bg-primary">Javacsript</span>
+                                <span class="badge rounded-pill bg-primary">github</span>
+                                <span class="badge rounded-pill bg-primary">bootstrap</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Modal end -->
+             </div>
+           </div>
+         </div>
+        </div>
+         <!-- Portfolio 2 -->
+    <div class="card mt-5">
+        <div class="card-body">
+       <div class="row g-3">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 pt-5">
+          <h1>Multi Post Stories</h1>
+          <div class="d-flex flex-row flex-wrap bd-highlight mb-3">
+            <div class="p-2 bd-highlight">Canopy</div>
+            <div class="p-2 bd-highlight"><img src="images/dot.png" alt=""></div>
+            <div class="p-2 bd-highlight">Back End Dev</div>
+            <div class="p-2 bd-highlight"><img src="images/dot.png" alt=""></div>
+            <div class="p-2 bd-highlight ">2015</div>
+          </div>
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required</p>
+          <div class="technologies-badge pt-2">
+            <span class="badge rounded-pill bg-primary">Html</span>
+            <span class="badge rounded-pill bg-primary">Ruby on rails</span>
+            <span class="badge rounded-pill bg-primary">css</span>
+            <span class="badge rounded-pill bg-primary">Javacsript</span>
+          </div>
+          <button type="button" class="btn btn-outline-primary mt-4" data-bs-toggle="modal" data-bs-target="#project2-modal">See Project</button>
+          <!-- Modal -->
+                <div class="modal fade" id="project2-modal" tabindex="-1" aria-labelledby="project2-modalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="project2-modalLabel">MultiPost Stories</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                      <div class="container">
+                          <div class="row">
+                            <div class="col-12 d-flex flex-row flex-wrap bd-highlight mb-3">
+                              <div class="p-2 bd-highlight">Canopy</div>
+                              <div class="p-2 bd-highlight"><img src="images/dot.png" alt=""></div>
+                              <div class="p-2 bd-highlight">Back End Dev</div>
+                              <div class="p-2 bd-highlight"><img src="images/dot.png" alt=""></div>
+                              <div class="p-2 bd-highlight">2015</div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <img src="images/desktop-version/2.png" alt="portfolio" class="img-fluid mb-4">
+                          </div>
+                        <div class="row">
+                          <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
+                              printer took a galley of type and scrambled it 1960s with the relea
+                            </p>
+                          </div>
+                          <div class="col-4">
+                            <div class="technologies-badge pt-2">
+                              <span class="badge rounded-pill bg-primary">Html</span>
+                              <span class="badge rounded-pill bg-primary">Ruby</span>
+                              <span class="badge rounded-pill bg-primary">css</span>
+                              <span class="badge rounded-pill bg-primary">Javacsript</span>
+                              <span class="badge rounded-pill bg-primary">github</span>
+                              <span class="badge rounded-pill bg-primary">bootstrap</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            <!-- Modal end -->
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6"><img src="images/desktop-version/2.png" alt="portfolio" class="img-fluid" ></div>
+      </div>
+    </div>
+ </div>
+  <!-- Portfolio 3-->
+  <div class="card mt-5">
+    <div class="card-body">
+   <div class="row g-3">
+    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6"><img src="images/desktop-version/3.png" alt="portfolio" class="img-fluid" ></div>
+    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 pt-5">
+      <h1>Facebook 360</h1>
+      <div class="d-flex flex-row flex-wrap bd-highlight mb-3">
+        <div class="p-2 bd-highlight">Canopy</div>
+        <div class="p-2 bd-highlight"><img src="images/dot.png" alt=""></div>
+        <div class="p-2 bd-highlight">Back End Dev</div>
+        <div class="p-2 bd-highlight"><img src="images/dot.png" alt=""></div>
+        <div class="p-2 bd-highlight">2015</div>
+      </div>
+      <p>A daily selection of privately personalized reads; no accounts or sign-ups required</p>
+      <div class="technologies-badge pt-2">
+        <span class="badge rounded-pill bg-primary">Html</span>
+        <span class="badge rounded-pill bg-primary">Ruby on rails</span>
+        <span class="badge rounded-pill bg-primary">css</span>
+        <span class="badge rounded-pill bg-primary">Javacsript</span>
+      </div>
+      <button type="button" class="btn btn-outline-primary mt-4" data-bs-toggle="modal" data-bs-target="#project3-modal">See Project</button>
+      <!-- Modal -->
+            <div class="modal fade" id="project3-modal" tabindex="-1" aria-labelledby="project3-modalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="project3-modalLabel">Facebook 360</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-12 d-flex flex-row flex-wrap bd-highlight mb-3">
+                          <div class="p-2 bd-highlight">Canopy</div>
+                          <div class="p-2 bd-highlight"><img src="images/dot.png" alt=""></div>
+                          <div class="p-2 bd-highlight">Back End Dev</div>
+                          <div class="p-2 bd-highlight"><img src="images/dot.png" alt=""></div>
+                          <div class="p-2 bd-highlight">2015</div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <img src="images/desktop-version/1.png" alt="portfolio" class="img-fluid mb-4">
+                      </div>
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
+                          printer took a galley of type and scrambled it 1960s with the relea
+                        </p>
+                      </div>
+                      <div class="col-4">
+                        <div class="technologies-badge pt-2">
+                          <span class="badge rounded-pill bg-primary">Html</span>
+                          <span class="badge rounded-pill bg-primary">Ruby</span>
+                          <span class="badge rounded-pill bg-primary">css</span>
+                          <span class="badge rounded-pill bg-primary">Javacsript</span>
+                          <span class="badge rounded-pill bg-primary">github</span>
+                          <span class="badge rounded-pill bg-primary">bootstrap</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <!-- Modal end -->
+            </div>
+          </div>
+         </div>
+      </div>
+      <!-- Portfolio 4-->
+      <div class="card mt-5">
+        <div class="card-body">
+       <div class="row g-3">
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 pt-5">
+          <h1>Uber Navigation</h1>
+          <div class="d-flex flex-row flex-wrap bd-highlight mb-3">
+            <div class="p-2 bd-highlight">Canopy</div>
+            <div class="p-2 bd-highlight"><img src="images/dot.png" alt=""></div>
+            <div class="p-2 bd-highlight">Back End Dev</div>
+            <div class="p-2 bd-highlight"><img src="images/dot.png" alt=""></div>
+            <div class="p-2 bd-highlight">2015</div>
+          </div>
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required</p>
+          <div class="technologies-badge pt-2">
+            <span class="badge rounded-pill bg-primary">Html</span>
+            <span class="badge rounded-pill bg-primary">Ruby on rails</span>
+            <span class="badge rounded-pill bg-primary">css</span>
+            <span class="badge rounded-pill bg-primary">Javacsript</span>
+          </div>
+          <button type="button" class="btn btn-outline-primary mt-4" data-bs-toggle="modal" data-bs-target="#project4-modal">See Project</button>
+          <!-- Modal -->
+                <div class="modal fade" id="project4-modal" tabindex="-1" aria-labelledby="project4-modalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="project4-modalLabel">Uber Navigation</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-12 d-flex flex-row flex-wrap bd-highlight mb-3">
+                              <div class="p-2 bd-highlight">Canopy</div>
+                              <div class="p-2 bd-highlight"><img src="images/dot.png" alt=""></div>
+                              <div class="p-2 bd-highlight">Back End Dev</div>
+                              <div class="p-2 bd-highlight"><img src="images/dot.png" alt=""></div>
+                              <div class="p-2 bd-highlight">2015</div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <img src="images/desktop-version/1.png" alt="portfolio" class="img-fluid mb-4">
+                          </div>
+                        <div class="row">
+                          <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
+                              printer took a galley of type and scrambled it 1960s with the relea
+                            </p>
+                          </div>
+                          <div class="col-4">
+                            <div class="technologies-badge pt-2">
+                              <span class="badge rounded-pill bg-primary">Html</span>
+                              <span class="badge rounded-pill bg-primary">Ruby</span>
+                              <span class="badge rounded-pill bg-primary">css</span>
+                              <span class="badge rounded-pill bg-primary">Javacsript</span>
+                              <span class="badge rounded-pill bg-primary">github</span>
+                              <span class="badge rounded-pill bg-primary">bootstrap</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            <!--- Modal end -->
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6"><img src="images/desktop-version/4.png" alt="portfolio" class="img-fluid" ></div>
+      </div>
+    </div>
+ </div>
+</div>
+</section>
+
+<!-- About section -->
+<section id="about-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-5">
+        <h1 class="about-title">About Myself</h1>
+        <p class="lead">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my
+          work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact
+          me.
+        </p>
+           <span class="connect">LET'S CONNECT</span>
+           <div class="d-flex flex-row bd-highlight mb-3">
+            <div class="p-2 bd-highlight"><a href="https://twitter.com/PRATAP_TWT"><img src='images/twitter.svg'
+                width='20' height='20' alt="Twitter Profile"></a>
+              </div>
+             <div class="p-2 bd-highlight"><a href="https://www.linkedin.com/in/pratap-kumar-panabaka-755489236/"><img
+                src='images/linkedin.svg' width='20' height='20' alt="LinkedIn Profile"></a></div>
+               <div class="p-2 bd-highlight"><a href=""><img src='images/m.svg' width='20' height='20'
+                alt="Medium Profile"></a></div>
+               <div class="p-2 bd-highlight"><a href="https://github.com/PRATAP-KUMAR"><img src='images/github.svg'
+                width='20' height='20' alt="GitHub Profile"></a></div>
+               <div class="p-2 bd-highlight"><a href=""><img src='images/v.svg' width='20' height='20'
+                alt="Angellist Profile"></a></div>
+              </div>
+              <button type="button" class="btn btn-outline-primary mt-4" >Get My Resume</button>
+           </div>
+       <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 mt-5">
+          <div class="d-flex flex-row bd-highlight mb-3">
+            <div class="bd-highlight"><h5>Languages</h5></div>
+            <div class="bd-highlight mx-auto"><img src="images/drop-arrow.svg" alt="" class="rounded"></div>
+            </div>
+            <div class="d-flex flex-row bd-highlight mb-3">
+              <div class="p-2 mr-2 bd-highlight bg-light border border-light m-2">
+                <img src="images/js.svg" alt="javascript">
+                <p>Javascript</p>
+              </div>
+              <div class="p-2 mr-2 bd-highlight bg-light border border-light m-2">
+                <img src="images/html.svg" alt="html">
+                <p>html</p>
+              </div>
+              <div class="p-2 mr-2 bd-highlight bg-light border border-light m-2">
+                <img src="images/css.svg" alt="css">
+                <p>css</p>
+              </div>
+            </div>
+
+                <div class="container">
+                  <div class="row">
+                    <div class="col-7 mb-4 border-bottom"><h5>Frameworks</h5>
+                    </div>
+                    <div class="col-5">
+                      <div class="bd-highlight"><img src="images/drop-arrow.svg" alt="" class=""></div>
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-7 border-bottom"><h5>Skills</h5>
+                    </div>
+                    <div class="col-5">
+                      <div class="bd-highlight"><img src="images/drop-arrow.svg" alt="" class=""></div>
+                    </div>
+                  </div>
+               </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<section  id="contact-section">
+  <div class="d-flex flex-column py-5 row">
+      <div class="col-md-4 offset-md-4 col-sm-12 text-center">
+          <h3 class="text-white pt-5">Contact Us</h3>
+          <p class="text-white py-3">
+              If you have an application you are interested in developing, a feature that you need built or a project that needs
+              coding. I’d love to help with it
+          </p>
+          <form action="https://formspree.io/f/xjvlqgrb" method="POST">
+              <div class="mb-4">
+                  <label for="exampleFormControlInput1" hidden class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full Name">
+              </div>
+              <div class="mb-4">
+                  <label for="exampleFormControlInput2" hidden class="form-label">Email Address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Email Address">
+              </div>
+              <div class="mb-4">
+                  <label hidden for="exampleFormControlTextarea1" class="form-label">Message</label>
+                  <textarea rows="10" class="form-control" id="exampleFormControlTextarea1"></textarea>
+              </div>
+              <button type="submit" class="btn btn-lg bg-white text-primary">Get In Touch</button>
+          </form>
+      </div>
+  </div>
+</section>
+
+
+
+  <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
